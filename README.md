@@ -1,74 +1,76 @@
-# 🌐 Basic HTML Website
+# 🌐 Personal Portfolio
 
-This is a simple **HTML-only multi-page website** project built as part of the [roadmap.sh project challenge](https://roadmap.sh/projects/basic-html-website).  
-The project focuses solely on structuring the website using semantic HTML. **No CSS or styling** is included — only clean, semantic layout.
+Responsive, styled portfolio website built on top of the previous **Basic HTML Website** structure.  
+This project focuses on using **CSS** to create a clean, responsive layout with consistent typography, color system, and an accessible contact form.
 
----
-
-## 📄 Pages Included
-
-- ✅ Homepage (`index.html`)
-- ✅ Projects (`projects.html`)
-- ✅ Articles (`articles.html`)
-- ✅ Contact (`contact.html`) — includes a contact form (name, email, message)
+> Based on the roadmap.sh challenge:> https://roadmap.sh/projects/portfolio-website
 
 ---
 
-## 📌 Project Goals
+## 🚀 Live Demo
+https://yanamak89.github.io/basic-html-website/
 
-- Structure a website using **semantic HTML**
-- Add **basic SEO meta tags** in each page’s `<head>`
-- Use a **shared navigation bar** on all pages
-- Create a layout that is **easy to style later**
-- Practice using HTML tags like: `header`, `footer`, `nav`, `main`, `section`, `form`, etc.
+> If you later rename the repo to `personal-portfolio`, your URL will be:> `https://yanamak89.github.io/personal-portfolio/`
 
 ---
 
-## 🚀 How to Run
-
-To run the project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/basic-html-website
-   ```
-
-2. Open the `index.html` file in your browser.
-
-> ✅ No setup or installation needed — just open with any modern browser.
+## ✨ Features
+- Responsive layout (mobile → desktop)
+- Consistent colour scheme & typography (Google Fonts: Inter)
+- Flexbox layout + media queries + box model
+- Accessible navigation bar
+- Contact form with HTML5 validation (required fields, custom messages)
+- Dark mode (CSS variables + toggle with `data-theme="dark"`)
 
 ---
 
-## 🌐 Live Preview
-
-[https://yourusername.github.io/basic-html-website](https://yourusername.github.io/basic-html-website)
-
-> Replace `yourusername` with your actual GitHub username if needed.
-
----
-
-## 🛠 Built With
-
-- Pure HTML5
-- Semantic HTML structure
-- Accessible and SEO-friendly markup
+## 📁 Project Structure
+- `index.html` — Hero, Details, Projects, Work Experience, Education, Reviews, Contact
+- `css/style.css` — variables, base styles, layout, components, dark mode
+- `thank-you.html` — post-submit page for the contact form
 
 ---
 
-## ✅ Submission Requirements Checklist
+## ▶️ Run locally
+```bash
+git clone https://github.com/yanamak89/basic-html-website.git
+cd basic-html-website
+# Open index.html in your browser
+```
 
-- [x] Semantically correct HTML structure
-- [x] Multiple pages with a navigation bar
-- [x] SEO meta tags on each page
-- [x] Contact form with name, email, message
-- [x] README file with project and live preview links
-
----
-
-## 🧠 What's Next?
-
-In the next project, the focus will be on **styling this layout with CSS**.
+No build step needed.
 
 ---
 
-Feel free to fork, clone or use this structure in your own projects! Happy coding!
+## ✅ Submission Requirements (from roadmap.sh)
+- [x] Fully styled, responsive website with the same structure as the previous project  
+- [x] Consistent colour scheme and typography  
+- [x] Proper use of CSS techniques: Flexbox, media queries, box model  
+- [x] Responsive navigation bar  
+- [x] Well-styled contact form  
+
+### Bonus
+- [x] Google Fonts  
+- [x] Hosted on GitHub Pages  
+- [x] Dark mode via CSS variables
+
+---
+
+## 🔧 Tech
+- HTML5 (semantic)
+- CSS3 (Flexbox, media queries, variables)
+- Accessibility-friendly focus styles
+- Lightweight, no frameworks
+
+---
+
+## 🌱 Next Steps
+- Polish styles (states, micro-animations)
+- Add CSS transitions/animations
+- Add CSS Grid for advanced layouts
+
+---
+
+## 📝 Project Links
+- Portfolio challenge: https://roadmap.sh/projects/portfolio-website
+- Previous HTML-only challenge: https://roadmap.sh/projects/basic-html-website
